@@ -1,0 +1,61 @@
+extends ../layout/pages-layot
+
+block content
+    header 
+        .dota-box 
+          .container-xl.p-0 
+             .container
+                  .row 
+                      .col-xxl-6.col-xl-6.col-lg-6.col-md-12 
+                          .hero-section.pt-5 
+                              h1.hero-title.text-white.m-0 gta 2
+                              p.hero-desc.text-white.my-5 
+                                    | gta 2 - компьютерная игра по сети...
+                             p.hero-desc.text-white 
+                                 | В игре участвуют две комнды по 5 человек...
+             .im-mobile 
+              img(src="./img/pic/gta-big.png" alt="")
+
+main 
+    section.gallery.pt-5 
+        .container-xl.p-0  
+            .container 
+                h1.gallery-title Галерея
+
+                .swiper.mySwiper
+                    .swiper-wrapper 
+                        .swiper-wrapper
+                            .swiper-slide 
+                                img(src="./img/pic/slides/gta-slide-1.png")
+                            .swiper-slide 
+                                img(src="./img/pic/slides/gta-slide-2.png")
+                            .swiper-bitton-next 
+                            .swiper-button-prev 
+    section.arcticles.py-5
+         .container-xl.p-0  
+            .container 
+                .row 
+                    .col-md-4 
+                        .card 
+                            .card-body 
+                                img.card-img-top.mb-4(srp="./img/pic/articles/gta-article-1.png") 
+                                h5.card-title Заголовок новость 2
+                                p.caed-text 
+                                    | Описание новости 2
+                                a.btn.btn-primary(href="#") читать
+                    .col-md-4 
+                        .card 
+                            .card-body 
+                                img.card-img-top.mb-4(srp="./img/pic/articles/v-article-1.png") 
+                                h5.card-title Заголовок новость 2
+                                p.caed-text 
+                                    | Описание новости 2
+                                a.btn.btn-primary(href="#") читать    
+                    .col-md-4 
+                        .card 
+                            .card-body 
+                                img.card-img-top.mb-4(srp="./img/pic/articles/gta-article-1.png") 
+                                h5.card-title Заголовок новость 2
+                                p.caed-text 
+                                    | Описание новости 2
+                                a.btn.btn-primary(href="#") читать      
